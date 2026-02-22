@@ -1,0 +1,11 @@
+# Driver Drowsiness Detection System - Dependencies
+# Core Computer Vision Libraries
+opencv-python>=4.8.0
+numpy>=1.24.0
+
+# Face and Landmark Detection (MediaPipe is easier to install than dlib)
+mediapipe>=0.10.0
+
+# Audio alerts (optional - for beep sounds)
+#winsound  # Built-in on Windows, no install needed
+
